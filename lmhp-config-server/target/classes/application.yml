@@ -3,7 +3,7 @@
 
 #spring.application.name=ms-config-server
 server:
-  port: 7070
+  port: 7071
 
 
 
@@ -15,7 +15,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/russbell456/examenDaD.git  # ruta del repositorio git
+          uri: https://github.com/Milagros-hp/examen_DAD.git  # ruta del repositorio git
           searchPaths: config-data
           default-label: main
   security:

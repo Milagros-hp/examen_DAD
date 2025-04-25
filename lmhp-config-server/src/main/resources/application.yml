@@ -3,7 +3,7 @@
 
 #spring.application.name=ms-config-server
 server:
-  port: 7070
+  port: 7071
 
 
 

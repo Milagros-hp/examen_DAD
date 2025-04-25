@@ -1,6 +1,6 @@
 spring:
   application:
-    name: rdcm-estudiante-service
+    name: lmhp-estudiante-service
   profiles:
     active: development
   config:
