@@ -1,7 +1,14 @@
 spring:
   application:
-    name: rdcm-curso-service
+    name: lmhps-curso-service
   profiles:
     active: development
   config:
-    import: optional:configserver:http://root:123456@localhost:7070
+    import: optional:configserver:http://root:123456@localhost:7071
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka
+  instance:
+    hostname: localhost

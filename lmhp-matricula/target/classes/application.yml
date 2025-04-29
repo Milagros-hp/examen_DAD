@@ -1,6 +1,6 @@
 spring:
   application:
-    name: rdcm-matricula-service
+    name: lmhp-matricula-service
   profiles:
     active: development
   config:
